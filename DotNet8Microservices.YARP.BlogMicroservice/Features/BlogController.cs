@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DotNet8Microservices.YARP.BlogMicroservice.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet8Microservices.YARP.BlogMicroservice.Features
@@ -18,6 +19,12 @@ namespace DotNet8Microservices.YARP.BlogMicroservice.Features
         public IActionResult GetBlogs()
         {
             return Ok(_dA_Blog.GetBlogs());
+        }
+
+        [HttpPost]
+        public IActionResult CreateBlog([FromBody] BlogModel blog)
+        {
+            return Ok(blog);
         }
     }
 }
