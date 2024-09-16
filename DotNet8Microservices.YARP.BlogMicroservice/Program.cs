@@ -1,4 +1,5 @@
 using DotNet8Microservices.YARP.BlogMicroservice.Features;
+using DotNet8Microservices.YARP.BlogMicroservice.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseMiddleware<AuthenticationMiddleware>();
 
 app.UseAuthorization();
 
