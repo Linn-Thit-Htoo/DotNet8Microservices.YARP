@@ -1,5 +1,4 @@
 ﻿using DotNet8Microservices.YARP.BlogMicroservice.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet8Microservices.YARP.BlogMicroservice.Features
