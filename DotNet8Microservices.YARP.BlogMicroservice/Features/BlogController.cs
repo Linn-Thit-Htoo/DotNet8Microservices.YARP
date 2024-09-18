@@ -1,7 +1,4 @@
-﻿using DotNet8Microservices.YARP.BlogMicroservice.Models;
-using Microsoft.AspNetCore.Mvc;
-
-namespace DotNet8Microservices.YARP.BlogMicroservice.Features;
+﻿namespace DotNet8Microservices.YARP.BlogMicroservice.Features;
 
 [Route("api/[controller]")]
 [ApiController]
