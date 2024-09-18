@@ -1,6 +1,4 @@
-﻿using DotNet8Microservices.YARP.BlogMicroservice.Models;
-
-namespace DotNet8Microservices.YARP.BlogMicroservice.Features;
+﻿namespace DotNet8Microservices.YARP.BlogMicroservice.Features;
 
 public class DA_Blog
 {
