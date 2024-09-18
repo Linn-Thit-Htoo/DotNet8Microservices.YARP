@@ -1,6 +1,3 @@
-using DotNet8Microservices.YARP.BlogMicroservice.Features;
-using DotNet8Microservices.YARP.BlogMicroservice.Middlewares;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
